@@ -1,0 +1,82 @@
+@charset "gb2312";
+/* CSS Document */
+body { font-family:"宋体", "微软雅黑", "Arial Narrow"; font-size:12px; line-height:22px; }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, legend, input, button, textarea, p, th, td { margin:0; padding:0; }
+img { border:0; }
+input, button, textarea, select, option { font-family:inherit; font-size:inherit; font-style:inherit; font-weight:inherit; }
+ol, ul { list-style:none; }
+.both { clear:both; }
+.cleardiv { height:0; line-height:0; font-size:0; clear:both; zoom:1; overflow:hidden; visibility: hidden; width:100%; display:block; }
+b { height:0; line-height:0; font-size:0; clear:both; zoom:1; overflow:hidden; visibility: hidden; width:100%; display:block; }
+/**
+  *常用背景颜色
+*/
+.bgFFF { background:#FFF }
+.bgF00 { background:#F00; }
+.bg000 { background:#000; }
+/**
+  *常用浮动
+*/
+.fl { float:left; }
+.fr { float:right; }
+.fld { float:left; _display:inline; }
+.frd { float:right; _display:inline; }
+/**
+   *常用文字设置
+*/
+.fs12 { font-size:12px; }
+.fs14 { font-size:14px; }
+.fs16 { font-size:16px; }
+.fw { font-weight:bold; }
+.tc { text-align:center; }
+.tr { text-align:right; }
+.tl { text-align:left; }
+.ti { text-indent:2em; }
+/**
+  *span块级化
+*/
+.db { display:block; }
+.dbt { display:block; text-indent:-9999px; }
+/**
+  *常用分列
+*/
+.ul2 li { width:49.5%; float:left; }
+.ul3 li { width:33.2%; float:left; }
+.ul4 li { width:24.9%; float:left; }
+/**
+  *常用图文并列
+*/
+dl.dl { overflow:hidden; zoom:1; }
+dl.dl dt, dl.dl dd { overflow:hidden; zoom:1; }
+dl.dl dt { float:left; _display:inline; }
+dl.dl dd { float:right; _display:inline }
+/**
+  *头部导航
+*/
+a { text-decoration:none; }
+.Pa1 { padding-top:10px; }
+.mar1 { margin-left:9px; _display:inline }
+/*幻灯*/
+
+.anythingSlider { width: 960px; height: 390px; position: relative; overflow: hidden;margin:0 auto; }
+.anythingSlider .tWrapper { width: 960px; height: 390px; margin: 0 0px; position: absolute; top: 0; left: 0; background: #fff; }
+.anythingSlider .tWrapper ul { width: 99999px; height: 407px; list-style: none; position: absolute; top: 0; left: 0; margin: 0; }
+.anythingSlider ul li { display: block; float: left; padding: 0; height: 390px; width: 960px; }
+.anythingSlider .arrow { display: block; height: 60px; width: 60px; position: absolute; cursor: pointer; z-index: 100; }
+.anythingSlider .arrow div { background: url(../images/t_btnp.png) no-repeat; height: 60px; width: 60px; }
+.anythingSlider .forward { left: 690px; top: 165px; }
+.anythingSlider .back { left: 10px; top: 165px; }
+.anythingSlider .forward div { background-position: -143px -97px; }
+.anythingSlider .back div { background-position: 0 -97px; }
+.anythingSlider .forward:hover div { background-position: -143px 0; }
+.anythingSlider .back:hover div { background-position: 0 0; }
+.anythingSlider ul li dl { width: 960px; height: 390px; }
+.tWrapper ul li dl dt { width: 760px; height: 390px; overflow: hidden; float: left; }
+.tWrapper ul li dl dd { width: 180px; padding: 10px; z-index: 10; display: block; height: 370px; float: right; background: url(../images/t_ftb.gif) no-repeat 0 0; }
+.tWrapper ul li dl dd h3 { line-height: 25px; padding: 5px 0 10px 0; font-weight: normal; font-size: 14px; border-bottom: 1px dashed #555; }
+.tWrapper ul li dl dd p.hdx { color: #999; padding-top: 8px; line-height: 22px; }
+.tWrapper ul li dl dd a { color: #fff; }
+.tWrapper ul li dl dd a:hover { color: #fff; text-decoration: underline; }
+#thumbNav { position: absolute; top: 365px; right: 5px; height: 13px; z-index: 500; }
+#thumbNav a, #thumbNav a:hover { cursor: pointer; overflow: hidden; float: left; display: inline-block; width: 13px; height: 13px; margin-right: 6px; background: url(../images/t_btnp.png) no-repeat 0px -186px; _background: url(../images/t_ftb.gif) no-repeat -138px -466px; font-size: 16px; font-family: "Verdana"; display: inline-block; }
+#thumbNav a.cur { color: #fff; background: url(../images/t_btnp.png) no-repeat -21px -186px; _background: url(../images/t_ftb.gif) no-repeat -138px -481px; }

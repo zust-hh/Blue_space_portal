@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户注册</title>
+    <link rel="stylesheet" href="css/register.css" type="text/css">
+    <link rel="stylesheet" href="css/cssreset.css" type="text/css">
+</head>
+<body>
+<div class="zhuce">
+    <div class="logo">
+        <h1>蓝色空间</h1>
+    </div>
+    <div class="agent">
+        <h1 class="agenthead">
+            用户注册
+        </h1>
+        
+            <div class="yhmmm">
+                用户名
+            </div>
+            <input type="text" name="name" id="name" maxlength="50" class="admin">
+            <div class="yhmmm">
+                密码
+            </div>
+            <input type="password" name="password" id="password" maxlength="20" style="ime-mode:disabled" onclick="javascript:check(1);" class="admin">
+            <div class="yhmmm">
+                确认密码
+            </div>
+            <input type="password" name="password2" id="password2" maxlength="20" style="ime-mode:disabled" onclick="javascript:check(1);" class="admin">
+            <div class="yhmmm">
+                邮箱
+            </div>
+            <input type="text" name="email" id="email" maxlength="90" onclick="javascript:check(3);" class="admin">
+            
+            <div class="yhmmm">
+                自我介绍
+            </div>
+            <textarea rows=5 name="self_introduction" maxlength="200" class="admin2"></textarea>
+            <input type="button" value="提交" class="zhucebutton" style="color: black" onclick="javascript:submittion();">
+        <p>已有账户？</p>
+        <a href="#">登录</a>
+    </div>
+</div>
+<div class="foottt">
+    <p align="center">蓝色空间 版权所有</p>
+</div>
+</body>
+</html>

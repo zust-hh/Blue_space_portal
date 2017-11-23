@@ -1,0 +1,34 @@
+
+.pinglun-z {
+    width: 760px;
+    height: auto;
+    margin: 0 auto;
+    border: 2px solid #999999;
+}
+#pinglun-t textarea {
+    width: 759px;
+    height: 200px;
+    border-bottom: 1px solid #9CDD75;
+    resize: none;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    font-size: 16px;
+    outline: none;
+}
+#pinglun-b {
+    background-color: #dee0e5;
+}
+#pinglun-b input {
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    border-radius: 2px;
+    margin-left: 660px;
+    color: white;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+#pinglun-b input:hover {
+    background-color: #a82512;
+}

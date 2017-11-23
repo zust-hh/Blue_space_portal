@@ -1,0 +1,311 @@
+@charset "UTF-8";
+.footer_warp{ background:#eeeeee; width:100%; height:185px; margin-top:40px;}
+.STYLE3 {
+	font-family: "微软雅黑";
+}
+.STYLE4 {
+	color: #3366CC;
+}
+#Layer1 {
+	position:absolute;
+	width:352px;
+	height:27px;
+	z-index:1;
+	left: 891px;
+	top: 107px;
+}
+.STYLE6 {font-family: "微软雅黑"; color: #666666; }
+body {
+	background-image: url();
+	background-repeat: repeat-x;
+}
+*{
+	padding:0;
+	margin:0;
+}
+#Layer1 {
+	position:absolute;
+	width:352px;
+	height:27px;
+	z-index:1;
+	left: 891px;
+	top: 107px;
+}
+.gwstyle1 {
+background-color:#8FAAD9;}
+.gwstyle2 {
+background-color:#E3E3E3;}
+.STYLE10 {
+	font-family: "宋体";
+	font-weight: bold;
+	color:#FFFFFF;
+	font-size:35px;
+}
+.btstyle {
+width:100%;
+background-color:#8FAAD9;
+height:100px;
+}
+.STYLE11 {font-size: 50px; font-family: "微软雅黑"; color: #FFFFFF; }
+.kuang{
+	width=100%;
+	height=90px;
+	float:left;
+	clear:both;
+	display:block;
+	zoom:1;
+	}
+-->
+.a{
+height:81px;
+width:314px;
+float:left;
+background:url(../guidebar_icon/lskjtittle.jpg);
+}
+.b{
+height:81px;
+width:104px;
+float:left;
+background:url(../guidebar_icon/indexbutton.jpg);
+}
+.b:hover{
+background:url(../guidebar_icon/indexbutton_click.jpg);
+}
+.c{
+height:81px;
+width:104px;
+float:left;
+background:url(../guidebar_icon/goodwork.jpg);
+}
+.c:hover{
+background:url(../guidebar_icon/goodwork_click.jpg);
+}
+.d{
+height:81px;
+width:104px;
+float:left;
+background:url(../guidebar_icon/studyzone.jpg);
+}
+.d:hover{
+background:url(../guidebar_icon/studyzone_click.jpg);
+}
+.e{
+height:81px;
+width:104px;
+float:left;
+background:url(../guidebar_icon/exam.jpg);
+}
+.e:hover{
+background:url(../guidebar_icon/exam_click.jpg);
+}
+.f{
+height:81px;
+width:104px;
+float:left;
+background:url(../guidebar_icon/bbs.jpg);
+}
+.f:hover{
+background:url(../guidebar_icon/bbs_click.jpg);
+}
+.g{
+height:81px;
+width:104px;
+float:left;
+background:url(../guidebar_icon/zoneinfo.jpg);
+}
+.g:hover{
+background:url(../guidebar_icon/zoneinfo_click.jpg);
+}
+.btstyle{
+clear:both;
+}
+.shoushuo {
+	width: 280px;
+	height: 42px;
+	float: left;
+	border: 1px solid pink;
+	margin-top: 34px;
+}
+.shoushuo_l {
+	width: 220px;
+	height: 28px;
+	float: left;
+	margin: 5px 0 5px 4px;
+	color: #D8D8D8;
+	border: 1px solid black;
+}
+.shoushuo_r {
+	width: 48px;
+	height: 30px;
+	background: #a1b8e1;
+	float: left;
+	margin: 5px 5px 5px 0;
+	border: 1px solid black;
+}
+.yonghu {
+	width: 50px;
+	height: 31px;
+	background-color: darkorange;
+	float: right;
+	margin: 38px 0 0 20px;
+}
+.yonghuzt {
+	line-height: 31px;
+	font-size: 14px;
+	color: white;
+	text-align: center;
+}
+.goodstudy {
+
+
+}
+.paper {
+	width:700px;
+	height:1000px;
+	background-color: #FF0000;
+	float:left;
+	margin-left:60px;
+	}
+.ad {
+	width:400px;
+	height:600px;
+	float:right;
+	margin-right:50px;
+	background-color:#CCFF00;
+	}
+.logo {
+	width: 970px;
+	height: 98px;
+	margin: 0 auto;
+	background: url(../guidebar_icon/usb.png);
+
+}
+.logo_l {
+	width: 291px;
+	height: 81px;
+	float: left;
+	background: url(../guidebar_icon/lskjtittle.jpg);
+	margin: 24px 0 19px 9px;
+	text-indent: -9999px;
+}
+.logo_r {
+	width: 230px;
+	height: 42px;
+	float: left;
+	border: 1px solid pink;
+	margin-left: 70px;
+}
+.logo_ss_l {
+	width: 168px;
+	height: 28px;
+	float: left;
+	margin: 5px 0 5px 4px;
+	color: #D8D8D8;
+	border: 1px solid black;
+}
+.logo_ss_r {
+	width: 48px;
+	height: 28px;
+	background: #2c2aff;
+	float: left;
+	margin: 5px 5px 5px 0;
+	border: 1px solid black;
+}
+.dlzc {
+	width: 120px;
+	height: 28px;
+	float: right;
+}
+.denglubutton {
+	width: 48px;
+	height: 28px;
+	background: yellowgreen;
+	float: left;
+	margin-top: 55px;
+	margin-left: 20px;
+	border: 1px solid black;
+}
+.zhuche {
+	width: 50px;
+	height: 28px;
+	float: right;
+	margin-top: -20px;
+	margin-left: 130px;
+}
+.nav {
+	width: 970px;
+	height: 40px;
+	margin: 28px auto 0 auto;
+}
+.nav1 {
+	width: 80px;
+	height: 30px;
+	background: url(../guidebar_icon/indexbutton.png);
+	margin: 10px;
+	float: left;
+}
+.nav2 {
+	width: 90px;
+	height: 30px;
+	background: url(../guidebar_icon/goodwork.png);
+	margin: 10px;
+	float: left;
+}
+.nav3 {
+	width: 90px;
+	height: 30px;
+	background: url(../guidebar_icon/studyzone.png);
+	margin: 10px;
+	float: left;
+}
+.nav4 {
+	width: 90px;
+	height: 30px;
+	background: url(../guidebar_icon/exam.png);
+	margin: 10px;
+	float: left;
+}
+.nav5 {
+	width: 80px;
+	height: 30px;
+	background: url(../guidebar_icon/bbs.png);
+	margin: 10px;
+	float: left;
+}
+.nav6 {
+	width: 90px;
+	height: 30px;
+	background: url(../guidebar_icon/zoneinfo.png);
+	margin: 10px;
+	float: left;
+}
+.nav1:hover {
+	background: url(../guidebar_icon/bgtm80x30.png),url(../guidebar_icon/indexbutton.png);
+}
+.nav2:hover {
+	background: url(../guidebar_icon/bgtm90x30.png),url(../guidebar_icon/goodwork.png);
+}
+.nav3:hover {
+	background: url(../guidebar_icon/bgtm90x30.png),url(../guidebar_icon/studyzone.png);
+}
+.nav4:hover {
+	background: url(../guidebar_icon/bgtm90x30.png),url(../guidebar_icon/exam.png);
+}
+.nav5:hover {
+	background: url(../guidebar_icon/bgtm80x30.png),url(../guidebar_icon/bbs.png);
+}
+.nav6:hover {
+	background: url(../guidebar_icon/bgtm90x30.png),url(../guidebar_icon/zoneinfo.png);
+}
+.tou {
+	background: url(../guidebar_icon/guidebar_bg.png) repeat-x;
+}
+.xia {
+	background: url(../guidebar_icon/wz_bg2.png) repeat;
+}
+.foottt {
+	width: 100%;
+	height: 180px;
+	margin: 0 auto;
+	background-color: #f0f1f3;
+}

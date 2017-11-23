@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+    <title>空间介绍</title>
+    <link rel="stylesheet" href="css/cssreset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/activity.css">
+</head>
+<body>
+<div class="yinying">
+    <!--   header  -->
+
+
+    <div class="header">
+        <div class="logo">
+            <img src="img/bzlogo.png" alt="Logo">
+        </div>
+        <div class="logo-right-wz">
+“让每个人都能自由、<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;自主地学习！”
+        </div>
+        <div class="dlzc">
+            <div class="dlzcmain">
+                <form id="login" action="admin/login.php" method="POST">
+                    <div class="dlzcword"><h2><strong>登录</strong> 您的账户</h2></div>
+                    <div class="dlzc1">
+                        <div class="dlzc-username">
+                            <input type="text" name="name" placeholder="Username" style="width: 150px; height: 35px;background-color: #f3f4f6;border-radius: 3px;">
+                        </div>
+
+                        <div class="dlzc-password">
+                            <input type="password" name="password" placeholder="Password" style="width: 80px; height: 35px;background-color: #f3f4f6;font-size: 12px;border-radius: 3px;">
+                        </div>
+
+                        <div>
+                            <input type="submit" value="" name="button" class="dlzc-submit">
+                        </div>
+                    </div>
+            </div>
+        </div>        
+    </div>
+
+    <!--   nav  -->
+        <div class="nav">
+            <div class="nav1">
+                <a href="index.php"><div class="navhome"></div></a>
+            <ul>
+                <li>
+                    <a href="catalog.php?maintype=优秀作品">优秀作品</a>
+                    <ul>
+<li><a href="article.php?id=48">移动应用</a></li><li><a href="article.php?id=30">视频</a></li><li><a href="article.php?id=50">网站</a></li><li><a href="article.php?id=44">软件</a></li><li><a href="article.php?id=40">论文</a></li><li><a href="article.php?id=49">图像设计</a></li>                        
+                    </ul>
+                </li>
+                <li>
+                    <a href="catalog.php?maintype=学习园地">学习园地</a>
+                    <ul>
+<li><a href="article.php?id=33">web开发</a></li><li><a href="article.php?id=42">编程语言</a></li><li><a href="article.php?id=43">多媒体设计</a></li><li><a href="article.php?id=45">学习网站推荐</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">活动</a>
+                    <ul>
+                    	<li><a href="activity.php">空间活动</a></li>
+                        <li>
+                            <a href="">学科竞赛实践</a>
+                            <ul>
+                                <li><a href="http://dmtds.zjnu.edu.cn/">浙江省大学生多媒体设计作品竞赛</a></li>
+                                <li><a href="">浙江省大学生“互联网+”</a></li>
+                                <li><a href="http://zjsoiac.hdu.edu.cn/">浙江省大学生服务外包竞赛</a></li>
+                                <li><a href="http://zjec.zjgsu.edu.cn/">浙江省大学生电子商务设计竞赛</a></li>
+                                <li><a href="http://www.jsjds.org/">全国大学生计算机设计大赛</a></li>
+                                <li><a href="http://www.tiaozhanbei.net/">浙江省大学生挑战杯创业设计大赛（小挑）</a></li>
+                                <li><a href="http://www.tiaozhanbei.net/">浙江省大学生挑战杯创新设计大赛（大挑）</a></li>
+                            </ul>
+                        </li>
+                        
+                        <!--li>
+                            <a href="">校级项目</a>
+                        </li>
+
+                        <li>
+                            <a href="">省级项目</a>
+                        </li>
+
+                        <li>
+                            <a href="">国创项目</a>
+                        </li-->
+                    </ul>
+                </li>
+                <li>
+                    <a href="upload/forum.php">论坛</a>
+                </li>
+                <li>
+                    <a href="introduce.php"><p>基地介绍</p></a>
+                    <ul>
+                        <li><a href="introduce.php">简介</a></li>
+                        <li><a href="introduce.php">团队成员</a></li>
+                        <li><a href="introduce.php">硬件设施</a></li>
+                    </ul>
+                </li>
+                <li class="navlast">
+                    <a href="admin/reg.php" style="color:white">加入我们</a>
+                </li>
+            </ul>
+            </div>
+        </div>    <!--   nav  -->
+
+<!-- activity -->
+    <div class="container">
+        <div class="main">
+            <ul class="cbp_tmtimeline">
+                <li>
+                    <time class="cbp_tmtime" datetime="2013-04-10 18:30">
+                        <span>2016年5月</span> <span>12日</span></time>
+                    <div class="cbp_tmicon cbp_tmicon-phone">
+                    </div>
+                    <div class="cbp_tmlabel">
+                        <div class="activity-head">
+                            <h2>院长交流会<input type="button" id="enter"></h2>
+                            <script>
+                                $('#enter').on('click', function(){
+                                    layer.open({
+                                        type: 2,
+                                        title: '活动报名',
+                                        maxmin: true,
+                                        shadeClose: true, //点击遮罩关闭层
+                                        area : ['500px' , '500px'],
+                                        content: 'enter.html'
+                                    });
+                                });
+                            </script>
+                        </div>
+                        <div class="activity-main">
+                            <div class="activity-word">
+                                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我们蓝色空间学习基地不仅有伙伴们的相互学习，更加有对我们关怀备至的可爱院长，富有多年带领学生们竞赛经验的老师亲自来蓝色空间面对面的引导你的成长之路，还有其他比你优秀许多的学长学姐专程赶来传授经验。今晚18:30！18:30！18:30！（重要的事情说三遍！）就在劲竹书院-229“蓝色空间”，有我们可爱的亲民院长，更有优秀学长哦！还不赶紧加入这么棒的活动中来！放下“联盟”，加入我们“蓝色空间”吧！
+                                </p>
+                            </div>
+                            <div class="activity-img">
+                                <img src="img/bzlogo.png" alt="图片" width="300" height="200">
+                            </div>
+                            <div style="clear:both"></div>
+                        </div>
+                    </div>
+                </li>
+				
+				 <li>
+                    <time class="cbp_tmtime" datetime="2013-04-10 18:30">
+                        <span>2016年5月</span> <span>11日</span></time>
+                    <div class="cbp_tmicon cbp_tmicon-phone">
+                    </div>
+                    <div class="cbp_tmlabel">
+                        <div class="activity-head">
+                            <h2>蓝色空间正式成立啦<input type="button" id="enter"></h2>
+                            <script>
+                                $('#enter').on('click', function(){
+                                    layer.open({
+                                        type: 2,
+                                        title: '活动报名',
+                                        maxmin: true,
+                                        shadeClose: true, //点击遮罩关闭层
+                                        area : ['500px' , '500px'],
+                                        content: 'enter.html'
+                                    });
+                                });
+                            </script>
+                        </div>
+                        <div class="activity-main">
+                            <div class="activity-word">
+                                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“蓝色空间”学习基地经过劲竹书院辅导员-成晓越老师，信息与电子工程学院院长-岑岗等许多我校领导的全力支持下，在2016年5月11日正式举行“剪彩”仪式。我们安吉校区蓝色空间内部装潢与配置也是杠杠的！高级的电脑配置，舒适的座椅，宽敞明亮的学习环境。当第一缕灿烂的晨光照进蓝色空间，怀着梦想的你走进蓝色空间，在舒适安静的环境下沉下心来，开始你默默奋斗的一天，这里就是为你梦想积蓄能量的地方。有参加意向的同学，可以通过本网站点击“加入我们”或者直接向书院辅导员提出申请，通过以后，好学的你可以正式成为我们“蓝色空间”的一份子啦！我们都在这优越的地方等着你的加入！
+                                </p>
+                            </div>
+                            <div class="activity-img">
+                                <img src="img/bzlogo.png" alt="图片" width="300" height="200">
+                            </div>
+                            <div style="clear:both"></div>
+                        </div>
+                    </div>
+                </li>
+				
+				
+				<li>
+                    <time class="cbp_tmtime">
+                        <span>2016年4月</span> <span>15日</span></time>
+                    <div class="cbp_tmicon cbp_tmicon-screen">
+                    </div>
+                    <div class="cbp_tmlabel">
+                        <div class="activity-head">
+                            <h2>2015级信息学院的新生参加本届浙江省大学生程序设计竞赛</h2>
+                        </div>
+                        <div class="activity-main">
+                            <div class="activity-word">
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2015级新生当然也积极参加各项竞赛（您所看到的本网站也是大学生计算机设计大赛中网站设计的作品之一），下面是2105级信息学院的新生参加本届浙江省大学生程序设计竞赛的照片，我校优秀学子与全省各大高校的优秀大学生同台竞技PK，竞争中更好地学习和提升。看了他们这么努力比赛，你是否心痒了呢？心动了吧，赶紧加入“蓝色空间”吧，这里有供养你渴求知识的一切土壤！
+                                </p>
+                            </div>
+                            <div class="activity-img">
+                                <img src="img/bzlogo.png" alt="图片" width="300" height="200">
+                            </div>
+                            <div style="clear:both"></div>
+                        </div>
+                    </div>
+                </li>
+				
+                <li>
+                    <time class="cbp_tmtime">
+                        <span>2015年9月</span> <span>9日</span></time>
+                    <div class="cbp_tmicon cbp_tmicon-screen">
+                    </div>
+                    <div class="cbp_tmlabel">
+                        <div class="activity-head">
+                            <h2>热烈祝贺我校同学在第8届计算机设计大赛中获奖</h2>
+                        </div>
+                        <div class="activity-main">
+                            <div class="activity-word">
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp由教育部高等学校计算机类专业教学指导委员会、软件工程专业教学指导委员会、大学计算机课程教学指导委员会、文科计算机基础教学指导委员会、中国教育电视台联合主办的2015年（第八届）中国大学生计算机设计大赛于2015年7月16日至8月31日，在武汉、长春、西安、成都、昆明、上海、北京、厦门和杭州举行。<br>我校胡晓峰，华益峰等许多同学荣获优秀成绩。我校参加该项竞赛取得好成绩，离不开学院领导的关心和离不开指导老师江兴方老师的悉心指导，此次比赛为明年的大赛打下了良好的基础。
+                                </p>
+                            </div>
+                            <div class="activity-img">
+                                <img src="img/bzlogo.png" alt="图片" width="300" height="200">
+                            </div>
+                            <div style="clear:both"></div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- activity -->
+
+    <!-- footer -->
+        <div class="footer">
+            <div class="footer-top">
+                <div class="footer-top-1">
+                    <p>友情链接</p>
+                </div>
+                <div class="footer-top-2">
+                    <div class="footer-top-1and2-title">更多功能</div>
+                    <div class="footer-top-2-inner"><a href=""><img src="/img/background/lab2.png" width="80px" height="80px" style="background-color: rgb(72,98,163);"></img></a><a href="/admin/superadmin.php"><img width="80px" height="80px" src="/img/background/cl.png"style="background-color: rgb(10,120,213);"></img></a><a href="suggestion.php"><img width="80px" height="80px" src="/img/background/mail.png"style="background-color: rgb(101,155,67);"></img></a></div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+            	<p>建议使用Chrome浏览器浏览</p>
+                <p>&nbsp;</p>
+                <p>Copyright ©2016 蓝色空间  Powered By PHP Version 1.0.0</p>
+                <p>&nbsp;</p>
+                <p>浙江科技学院（安吉校区）劲竹书院 2#229</p>
+            </div>
+        </div>        <!-- footer -->
+    </div>
+</div>
+</body>
+</html>

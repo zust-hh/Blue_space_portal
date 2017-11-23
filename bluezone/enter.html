@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            background-color: aliceblue;
+            background-size: 100% 100%;
+        }
+        .enter-main {
+            width: 480px;
+            height: 425px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-family: 微软雅黑;
+            text-align: center;
+        }
+        #text {
+            margin: 15px 70px;
+            height: 40px;
+            width: 330px;
+            border-radius: 5px;
+        }
+        #sub {
+            height: 40px;
+            width: 330px;
+            border-radius: 5px;
+            margin-left: 70px;
+            margin-top: 20px;
+            background: #00A8FF;
+            color: white;
+            font-size: 18px;
+            font-family: 微软雅黑;
+            transition: all 0.5s;
+            border: 0;
+        }
+        #sub:hover {
+            background: #0e87e3;
+
+        }
+        .suc{
+            padding-top: 170px;
+            padding-left: 175px;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+<div id="mark23" class="enter-main">
+    <h1>【我要报名】</h1>
+    <input type="text" placeholder="姓名" id="text">
+    <input type="text" placeholder="学号" id="text">
+    <input type="text" placeholder="电话" id="text">
+    <input type="button" value="确认提交" id="sub" onclick="javascript:bm();">
+    <script>
+     function bm(){
+        document.getElementById("mark23").innerHTML='<div class="suc">报名成功！</div>';
+     }
+    </script>
+</div>
+</body>
+</html>

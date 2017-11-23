@@ -1,0 +1,151 @@
+.div#navfirst
+		{
+		height: 55px;
+		width: 1100px;
+		margin: 0 0 0 12px;
+		padding: 0;
+		border: 0;
+		background: #fff;
+		}
+
+.div#navfirst ul#menu
+		{
+		height: 55px;
+		width: 1100px;
+		background: transparent url(/ui/bg.gif) top left no-repeat;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		}
+
+.div#navfirst ul#menu li
+		{
+		margin:0;
+		padding:0;
+		list-style:none;
+		position:absolute;
+		top:0;
+		}
+
+ul#menu li,ul#menu a
+		{
+		display: block;
+		height: 55px;
+		}
+
+div#navfirst ul#menu li a
+		{
+		text-indent: -9999px;
+		overflow:hidden;
+		text-decoration: none;
+		}
+
+#h	{left:0;width:155px;}
+#b	{left:155px;width:157px;}
+#s	{left:312px;width:167px;}
+#d 	{left:479px;width:158px;}
+#x	{left:637px;width:101px;}
+#m	{left:738px;width:185px;}
+#w	{left:923px;width:177px;}
+
+#h a:hover	{background: transparent url(/ui/bg.gif) 0 -55px no-repeat;}
+#b a:hover	{background: transparent url(/ui/bg.gif) -155px -55px no-repeat;}
+#s a:hover	{background: transparent url(/ui/bg.gif) -312px -55px no-repeat;}
+#d a:hover	{background: transparent url(/ui/bg.gif) -479px -55px no-repeat;}
+#x a:hover	{background: transparent url(/ui/bg.gif) -637px -55px no-repeat;}
+#m a:hover	{background: transparent url(/ui/bg.gif) -738px -55px no-repeat;}
+#w a:hover	{background: transparent url(/ui/bg.gif) -923px -55px no-repeat;}
+
+body.html #h {background: transparent url(/ui/bg.gif) 0 -55px no-repeat;}
+body.browserscripting #b {background: transparent url(/ui/bg.gif) -155px -55px no-repeat;}
+body.serverscripting #s {background: transparent url(/ui/bg.gif) -312px -55px no-repeat;}
+body.dotnet #d {background: transparent url(/ui/bg.gif) -479px -55px no-repeat;}
+body.xml #x {background: transparent url(/ui/bg.gif) -637px -55px no-repeat;}
+body.multimedia #m {background: transparent url(/ui/bg.gif) -738px -55px no-repeat;}
+body.webbuilding #w {background: transparent url(/ui/bg.gif) -923px -55px no-repeat;}
+
+#ws	{left:738px;width:185px;}
+#ws a:hover	{background: transparent url(/ui/bg.gif) -738px -55px no-repeat;}
+body.webservices #ws {background: transparent url(/ui/bg.gif) -738px -55px no-repeat;}
+
+
+
+
+	/* Default links */
+a:link, a:visited {
+	text-decoration : underline;
+	color : #900b09;
+	background : transparent; 
+	}
+
+a:hover {
+	text-decoration : underline;
+	color: #ff0000;
+	background : transparent; 
+	}
+
+a:active {
+	text-decoration : underline;
+	color : #ff0000;
+	background : transparent;  
+	}
+
+div#navsecond li.currentLink a:link, div#navsecond li.currentLink a:visited	{
+	text-decoration : none;
+	color:#ff0000;
+	background : transparent;
+	}
+
+div#navsecond li.currentLink a:hover	{
+	text-decoration : underline;
+	color : #ff0000;
+	background : transparent;
+	}
+
+div#navsecond a:link, div#navsecond a:visited	{
+	text-decoration : none;
+	color:#000;
+	background : transparent;
+	} 
+
+div#navsecond a:hover	{
+	text-decoration : underline;
+	color : #000;
+	background : transparent;
+	}
+
+div#navsecond a:active	{
+	text-decoration : underline;
+	color : #000;
+	background : transparent;
+	}
+
+div#navsecond a#link_help {
+	color:#0479A7;
+	}
+
+div#navsecond a#link_about {
+	color:#0479A7;
+	}
+
+div#maincontent .partner a {
+	color:#0479A7;
+	}
+
+div#footer a:link, div#footer a:visited	{
+	text-decoration : none;
+	color:#000;
+	background : transparent;
+	} 
+
+div#footer a:hover	{
+	text-decoration : underline;
+	color : #000;
+	background : transparent;
+	}
+
+div#footer a:active	{
+	text-decoration : underline;
+	color : #000;
+	background : transparent;
+	}

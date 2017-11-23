@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script charset="utf-8" src="../editor/kindeditor-comment.js"></script>
+<script charset="utf-8" src="../editor/lang/zh_CN.js"></script>
+<script language="javascript">
+
+function tijiao()
+{
+	var html = editor.html();
+	var tempf=document.createElement("form");
+	tempf.action="textreceiver.php";
+	tempf.method="post";
+	tempf.style.display="none";
+	var opt=document.createElement("textarea");
+	opt.name="mk";
+	opt.value=html;
+	tempf.appendChild(opt);
+	tempf.submit();
+	
+	alert(opt.value);
+	//editor.html("Change!");
+}
+</script>
+<script>
+        KindEditor.ready(function(K) {
+                window.editor = K.create('#editor_1');
+        });
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+
+<body>
+<p>
+  <textarea id="editor_1" name="content" style="width:700px;height:300px">内容部分</textarea>
+  <input name="tj" type="button" value="提交" onclick="tijiao();"/>
+</p>
+<p>
+  <input type="text" name="textfield" />
+</p>
+</body>
+</html>

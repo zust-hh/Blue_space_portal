@@ -1,0 +1,37 @@
+.plnr {
+    width: 760px;
+    padding: 0 20px;
+    margin: 0 auto;
+    border-bottom: 1px dashed #999999;
+}
+#plnr-user {
+    width: 760px;
+    height: 20px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+#plnr-art {
+    width: 760px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+#plnr-b {
+    width: 760px;
+    height: 30px;
+    margin-top: 20px;
+}
+.plnr-b-l{
+    color: rgb(116,61,26);
+    float: left;
+}
+.plnr-b-r {
+    color: red;
+    font-size: 14px;
+    float: right;
+}
+.plnr-b-r a {
+    font-size: 16px;
+}
+.plnr-b-r a:hover {
+    color: red;
+}

@@ -1,0 +1,114 @@
+
+*{
+	padding:0;
+	margin:0;
+}
+#Layer1 {
+	position:absolute;
+	width:352px;
+	height:27px;
+	z-index:1;
+	left: 891px;
+	top: 107px;
+}
+.gwstyle1 {
+background-color:#8FAAD9;}
+.gwstyle2 {
+background-color:#E3E3E3;}
+.STYLE10 {
+	font-family: "ËÎÌå";
+	font-weight: bold;
+	color:#FFFFFF;
+	font-size:35px;
+}
+.btstyle {
+width:100%;
+background-color:#8FAAD9;
+height:100px;
+}
+.STYLE11 {font-size: 50px; font-family: "Î¢ÈíÑÅºÚ"; color: #FFFFFF; }
+.kuang{
+	width=100px;
+	height=70px;
+	float:left;
+	clear:both;
+	display:block;
+	zoom:1;
+	}
+-->
+.a{
+height:81px;
+width:314px;
+float:left;
+background:url(guidebar_icon/lskjtittle.jpg);
+}
+.b{
+height:81px;
+width:104px;
+float:left;
+background:url(guidebar_icon/indexbutton.jpg);
+}
+.b:hover{
+background:url(guidebar_icon/indexbutton_click.jpg);
+}
+.c{
+height:81px;
+width:104px;
+float:left;
+background:url(guidebar_icon/goodwork.jpg);
+}
+.c:hover{
+background:url(guidebar_icon/goodwork_click.jpg);
+}
+.d{
+height:81px;
+width:104px;
+float:left;
+background:url(guidebar_icon/studyzone.jpg);
+}
+.d:hover{
+background:url(guidebar_icon/studyzone_click.jpg);
+}
+.e{
+height:81px;
+width:104px;
+float:left;
+background:url(guidebar_icon/exam.jpg);
+}
+.e:hover{
+background:url(guidebar_icon/exam_click.jpg);
+}
+.f{
+height:81px;
+width:104px;
+float:left;
+background:url(guidebar_icon/bbs.jpg);
+}
+.f:hover{
+background:url(guidebar_icon/bbs_click.jpg);
+}
+.g{
+height:81px;
+width:104px;
+float:left;
+background:url(guidebar_icon/zoneinfo.jpg);
+}
+.g:hover{
+background:url(guidebar_icon/zoneinfo_click.jpg);
+}
+.btstyle{
+clear:both;
+}
+</style>
+</head>
+
+<body>
+<div class="kuang clearfloat">
+<div class="a"></div>
+<div class="b"></div>
+<div class="c"></div>
+<div class="d"></div>
+<div class="e"></div>
+<div class="f"></div>
+<div class="g"></div>
+</div>

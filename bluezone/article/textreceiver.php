@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+
+<body>
+<?php
+$strl='<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<script type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v6.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    nbArr = document[grpName];
+    if (nbArr)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+      nbArr[nbArr.length] = img;
+  } }
+}
+
+function MM_initTimelines() { //v4.0
+    //MM_initTimelines() Copyright 1997 Macromedia, Inc. All rights reserved.
+    var ns = navigator.appName == "Netscape";
+    var ns4 = (ns && parseInt(navigator.appVersion) == 4);
+    var ns5 = (ns && parseInt(navigator.appVersion) > 4);
+    var macIE5 = (navigator.platform ? (navigator.platform == "MacPPC") : false) && (navigator.appName == "Microsoft Internet Explorer") && (parseInt(navigator.appVersion) >= 4);
+    document.MM_Time = new Array(2);
+    document.MM_Time[0] = new Array(0);
+    document.MM_Time["Timeline1"] = document.MM_Time[0];
+    document.MM_Time[0].MM_Name = "Timeline1";
+    document.MM_Time[0].fps = 15;
+    document.MM_Time[0].lastFrame = 0;
+    document.MM_Time[1] = new Array(0);
+    document.MM_Time["Timeline2"] = document.MM_Time[1];
+    document.MM_Time[1].MM_Name = "Timeline2";
+    document.MM_Time[1].fps = 15;
+    document.MM_Time[1].lastFrame = 0;
+    for (i=0; i<document.MM_Time.length; i++) {
+        document.MM_Time[i].ID = null;
+        document.MM_Time[i].curFrame = 0;
+        document.MM_Time[i].delay = 1000/document.MM_Time[i].fps;
+    }
+}
+//-->
+</script>
+<style type="text/css">
+<!--
+.STYLE3 {
+	font-family: "微软雅黑";
+}
+.STYLE4 {
+	color: #3366CC;
+}
+#Layer1 {
+	position:absolute;
+	width:352px;
+	height:27px;
+	z-index:1;
+	left: 891px;
+	top: 107px;
+}
+.STYLE6 {font-family: "微软雅黑"; color: #666666; }
+-->
+</style>
+</head>
+
+<body onload="MM_preloadImages(\'guidebar_icon/indexbutton_click.jpg\',\'guidebar_icon/goodwork_click.jpg\',\'guidebar_icon/studyzone_click.jpg\',\'guidebar_icon/exam_click.jpg\',\'guidebar_icon/bbs_click.jpg\',\'guidebar_icon/zoneinfo_click.jpg\')">
+<div align="center">
+  <table width="960" border="0">
+    <tr>
+      <td height="54" colspan="2">
+        <table height="78" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+		  	<td><p><img src="guidebar_icon/lskjtittle.jpg" alt="lskj_icon" width="314" height="81" />
+            <td><a href="index.html" target="_top" onclick="MM_nbGroup(\'down\',\'group1\',\'index\',\'guidebar_icon/indexbutton_click.jpg\',1)" onmouseover="MM_nbGroup(\'over\',\'index\',\'guidebar_icon/indexbutton_click.jpg\',\'guidebar_icon/indexbutton_click.jpg\',1)" onmouseout="MM_nbGroup(\'out\')"> <img src="guidebar_icon/indexbutton.jpg" alt="" name="index" width="104" height="81" border="0" id="index" onload="" /></a></td>
+            <td><a href="goodwork.html" target="_top" onclick="MM_nbGroup(\'down\',\'group1\',\'goodwork\',\'guidebar_icon/goodwork_click.jpg\',1)" onmouseover="MM_nbGroup(\'over\',\'goodwork\',\'guidebar_icon/goodwork_click.jpg\',\'guidebar_icon/goodwork_click.jpg\',1)" onmouseout="MM_nbGroup(\'out\')"><img src="guidebar_icon/goodwork.jpg" alt="" name="goodwork" width="104" height="81" border="0" id="goodwork" onload="" /></a></td>
+            <td><a href="studyzone.html" target="_top" onclick="MM_nbGroup(\'down\',\'group1\',\'studyzone\',\'guidebar_icon/studyzone_click.jpg\',1)" onmouseover="MM_nbGroup(\'over\',\'studyzone\',\'guidebar_icon/studyzone_click.jpg\',\'guidebar_icon/studyzone_click.jpg\',1)" onmouseout="MM_nbGroup(\'out\')"><img src="guidebar_icon/studyzone.jpg" alt="" name="studyzone" width="104" height="81" border="0" id="studyzone" onload="" /></a></td>
+            <td><a href="exam.html" target="_top" onclick="MM_nbGroup(\'down\',\'group1\',\'exam\',\'guidebar_icon/exam_click.jpg\',1)" onmouseover="MM_nbGroup(\'over\',\'exam\',\'guidebar_icon/exam_click.jpg\',\'guidebar_icon/exam_click.jpg\',1)" onmouseout="MM_nbGroup(\'out\')"><img src="guidebar_icon/exam.jpg" alt="" name="exam" width="104" height="81" border="0" id="exam" onload="" /></a></td>
+            <td><a href="http://www.baidu.com" target="_top" onclick="MM_nbGroup(\'down\',\'group1\',\'bbs\',\'guidebar_icon/bbs_click.jpg\',1)" onmouseover="MM_nbGroup(\'over\',\'bbs\',\'guidebar_icon/bbs_click.jpg\',\'guidebar_icon/bbs_click.jpg\',1)" onmouseout="MM_nbGroup(\'out\')"><img src="guidebar_icon/bbs.jpg" alt="" name="bbs" width="104" height="81" border="0" id="bbs" onload="" /></a></td>
+            <td><a href="zoneinfo.html" target="_top" onclick="MM_nbGroup(\'down\',\'group1\',\'zoneinfo\',\'guidebar_icon/zoneinfo_click.jpg\',1)" onmouseover="MM_nbGroup(\'over\',\'zoneinfo\',\'guidebar_icon/zoneinfo_click.jpg\',\'guidebar_icon/zoneinfo_click.jpg\',1)" onmouseout="MM_nbGroup(\'out\')"><img src="guidebar_icon/zoneinfo.jpg" alt="" name="zoneinfo" width="104" height="81" border="0" id="zoneinfo" onload="" /></a></td>
+          </tr>
+      </table></td></tr>
+    <tr>
+      <td colspan="2" valign="bottom"><span class="STYLE3"><img src="guidebar_icon\smallhouse_icon.jpg" width="24" height="21" align="bottom" />当前位置：<span class="STYLE4">测试 &gt; 测试位置 &gt;</span>测试测试（当前页面名称）</span></td>
+    </tr>
+    <tr>
+      <!--<td width="300">&nbsp;</td>-->
+	  <td width="300" valign="top"><iframe src="css2.html" width="300" height="800" scrolling="no" frameborder="0">您的浏览器不支持框架，请升级您的浏览器以便正常访问。 </iframe></td>
+      <td width="660" align="left" valign="top" bgcolor="#EDF2FA" class="STYLE6">团队成员
+	  <hr size="1" color="#999999">';
+//$strm=file_get_contents("php://input");
+$str=$strl.$_POST['mk'].$strr;
+//$str=$strl.$strm.$strr;
+$strr="      </td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>
+";
+
+$handle=fopen("test.html","w");
+fwrite($handle,$str);
+?>
+</body>
+</html>

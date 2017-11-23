@@ -1,0 +1,130 @@
+.introduce_row1{
+	width:100%;
+	height:400px;
+	margin: 0 auto;
+	background-image:url(../img/background/21.jpg);
+	background-size:100% 170%;
+}
+.introduce_row1_jieshao{
+	position: relative;
+	top: 80px;
+		width: 350px;
+		height: 110px;
+		margin: 0px auto;
+		font-family:"Times New Roman", Times, serif;
+		font-style: italic;
+		font-size: 40px;
+		color:white;
+		opacity: 0.9;
+}
+.introduce_row1_button{
+	position: relative;
+	top: 80px;
+		margin: 0px auto;
+		width: 350px;
+		border-radius: 15px;
+		background-color:white;
+		background-clip:border-box;
+		text-align:center;
+		font-size: 50px;
+		font-family: 黑体;
+		padding-top: 25px;
+		padding-bottom: 25px;
+		opacity: 0.2;
+		transition:background-color 0.5s,opacity 0.5s,color 0.4s;
+}
+.introduce_row1_button:hover{
+		background-color:#FFA53F;
+		color:white;
+		opacity: 0.8;
+}
+.introduce_row2_wz{
+	position: relative;
+	margin: 25px;
+	padding: 30px 30px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 26px;
+	font-weight: 600;
+	color: white;
+	text-shadow: 0 0 1px black;
+	float: left;
+	height: 260px;
+	width: 325px;
+	background-color: rgba(0,0,0,0.5);
+	line-height: 125%;
+}
+.introduce_row2{
+	width:100%;
+	height:400px;
+	margin: 0 auto;
+	background-image:url(../img/background/23.jpg);
+	background-size:100% 100%;
+}
+.introduce_row3{
+	width: 100%;
+	text-align:center;
+	padding-top: 150px;
+	padding-bottom: 200px;
+	font-size: 50px;
+	font-family: 微软雅黑;
+	text-shadow: 0 0 8px black;
+	color: white;
+	background-image: url(../img/background/kjnj2.jpg);
+	background-size:100% 100%;
+}
+/* hh 4/30 照片墙lin5.4改 */
+.introduce_row4 {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	height: 270px;
+	background-image: url(../img/background/kjnj4.jpg);
+	background-size:100% 100%;
+}
+.introduce_row4 img:hover{
+	z-index: 2;
+	transform: rotate(0deg) scale(1.20) ;
+	-webkit-transform: rotate(0deg) scale(1.20) ;
+}
+.introduce_row4 .pic {
+	z-index: 1;
+	transition: all 0.5s;
+	position: absolute;
+	width: 250px;
+	height: 150px;
+	padding: 10px;
+	background-color: rgba(255,255,255,0.4);
+	border: 1px solid #ddd;
+	box-shadow: 2px 2px 2px rgba(50,50,50,0.4);
+}
+.picture1 {
+	   left: 20px;
+	   top: 40px;
+	   transform: rotate(-5deg);
+	   -webkit-transform: rotate(-5deg);
+}
+.picture2 {
+	left: 200px;
+	top: 40px;
+	transform: rotate(-20deg);
+	-webkit-transform: rotate(-20deg);
+}
+.picture3 {
+	left: 450px;
+	top: 40px;
+	transform: rotate(15deg);
+	-webkit-transform: rotate(15deg);
+}
+.picture4 {
+	left: 650px;
+	top: 40px;
+	transform: rotate(5deg);
+	-webkit-transform: rotate(5deg);
+}
+.picture5 {
+	left: 900px;
+	top: 40px;
+	transform: rotate(10deg);
+	-webkit-transform: rotate(10deg);
+}
+/* hh 4/30 照片墙 */

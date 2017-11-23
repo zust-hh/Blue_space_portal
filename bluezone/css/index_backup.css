@@ -1,0 +1,343 @@
+body {
+    background-image: url(../img/background/1.jpg);
+    background-size: 100% 100%;
+}
+.header {
+    width: 1200px;
+    height: 130px;
+    margin: 0 auto;
+    background-color: #274472;
+}
+.logo {
+    width: 480px;
+    height: 120px;
+    padding-top:10px;
+    padding-left:30px;
+    float: left;
+}
+.logo a img {
+    width: 100%;
+    height: 100%;
+}
+.dlzc {
+    width: 350px;
+    height: 100px;
+    background-color: #324e79;
+    margin-top:20px;
+    margin-right:40px;
+    float: right;
+}
+/*lin于4.25编辑*/
+.ydl {
+    width: 180px;
+    height: 30px;
+    background-color: #324e79;
+    margin-top:20px;
+    margin-right:20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    float: right;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+}
+/*编辑结束*/
+.dlzc p {
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white;
+}
+.dlzc1 {
+    width: 330px;
+    height: 50px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.dlzc-username {
+    float: left;
+}
+.dlzc-password {
+    float: left;
+    margin-left: 5px;
+}
+.dlzc-submit {
+    margin-left: 5px;
+    width: 40px;
+    height: 35px;
+    border-radius: 3px;
+    float: left;
+    background:#63b2f5 url(../img/submit-bg.png) no-repeat center center;
+    -webkit-transition: background-color 0.5s;
+}
+.dlzc-submit:hover {
+    background-color: #4174c5;
+}
+.dlzcmain {
+    padding: 20px;
+}
+.dlzcword {
+    font-size: 16px;
+    color: white;
+}
+.nav {
+    width: 1200px;
+    height: 63px;
+    margin: 0 auto;
+    background-color: #f2f4f9;
+    border-bottom: #dee0e5 solid 1px;
+}
+.nav1 {
+    width: 1170px;
+    height: 63px;
+    padding: 0 15px;
+}
+.navhome {
+    width: 60px;
+    height: 63px;
+    background-image: url(../img/navhome.png);
+    background-size: 100% 100%;
+    float: left;
+    margin-right: 5px;
+}
+.nav1 ul li {
+    width: 183px;
+    height: 62px;
+    float: left;
+    font-size: 18px;
+    text-align: center;
+    border-right: #dee0e5 solid 1px;
+    position: relative;
+    cursor: pointer;
+    z-index: 2;
+    -webkit-transition: all 0.5s;
+}
+.nav1 ul li:hover {
+    background-color: #63bcf5;
+    border-bottom: #579dd9;
+}
+.nav ul li ul{
+    display:none;
+    cursor: pointer;
+}
+.nav ul li:hover ul{
+    display:block;
+    width:183px;
+    position:absolute;
+    top:62px;
+    left:0;
+    background-color: #f2f4f9;
+}
+.nav1 ul li a {
+line-height:62px;
+text-align:center;
+width:183px;
+height:62px;
+    color: #3e474c;
+	display:block;
+}
+.nav1 ul li a:hover {
+    color: white;
+}
+.navlast a {
+    color: white;
+}
+.nav1 ul li ul li {
+    cursor: pointer;
+    display:block;
+    width:83px;
+    line-height:23px;
+    border-bottom: #dee0e5 solid 1px;
+}
+.nav1 ul li ul li a{
+	display:block;
+}
+.nav1 ul li ul li ul li{
+    display:block;
+    width:183px;
+    height: 162px;
+    background-color: #f2f4f9;
+    line-height:23px;
+    border-bottom: #dee0e5 solid 1px;
+}
+.nav1 ul li ul li ul li a {
+	display:block;
+}
+.nav1 ul li:hover ul li ul {
+    height: 50px;
+    display:none;
+}
+.nav1 ul li:hover ul li:hover ul{
+    display:block;
+    width:183px;
+    position:absolute;
+    top:0;
+    left:183px;
+}
+.nav1 .navlast {
+width:183px;
+    height: 62px;
+    background-color: #a82512;
+    border-right:none;
+    float: left;
+    -webkit-transition: background-color 0.5s;
+}
+.nav1 .navlast:hover {
+    background-color: #d3311a;
+}
+.content {
+    margin: 0 auto;
+    width: 1200px;
+    height: auto;
+    z-index: 1;
+}
+.section-lar {
+    width: 1140px;
+    height: 460px;
+    padding: 30px;
+	background-color:white;
+}
+.section-a {
+    width: 1170px;
+    height: 460px;
+    margin: 0 -15px;
+	background-color: white;
+}
+.section-a-l {
+    width: 847px;
+    height: 460px;
+    padding: 0 0;
+    float: left;
+}
+.section-a-r {
+    width: 270px;
+    height: 460px;
+    padding: 0 0;
+    margin-left: 30px;
+    float: left;
+    background-color: #fafbfd;
+    border-radius: 5px;
+}
+.section-a-r h3 {
+    font-size: 24px;
+    font-style: normal;
+    font-family: Tahoma;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.richengbiao {
+    width: 230px;
+    height: 330px;
+    margin: 20px 20px;
+}
+.richengbiao li {
+    border-bottom: #EEEEEE solid 1px;
+}
+.section-a-r ul li {
+    width: 230px;
+    height: 55px;
+    padding: 13px 0;
+}
+.event-l {
+    width: 40px;
+    height: 50px;
+    background-color: #ebf4fc;
+    border-radius: 3px;
+    float:left;
+    -webkit-transition: background-color 1s;
+}
+.event-l:hover {
+    background-color: #63b2f5;
+    color: white;
+}
+.event-l-t {
+    width: 40px;
+    height: 25px;
+    font-family: Tahoma;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 5px;
+}
+.event-l-b {
+    width: 40px;
+    height: 15px;
+    font-family: Tahoma;
+    font-size: 14px;
+    text-align: center;
+}
+.event-r {
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-left: 15px;
+    background-image: url(../img/richenbiao.png);
+    background-size: 100% 100%;
+}
+.event-r-t a {
+    font-size: 15px;
+    font-family: 微软雅黑;
+    margin-left: 30px;
+    color:#4174c5;
+
+}
+.event-r-b p {
+    line-height: 15px;
+    padding-top: 4px;
+    padding-left: 5px;
+    display: inline-block;
+    color:#95999e;
+}
+.more-events{
+    height: 30px;
+    width:230px;
+}
+.more-events a{
+    color:#274472;
+    font-size: 18px;
+    font-family: 微软雅黑;
+    margin-left: 30px;
+
+}
+.section-b {
+	position: relative;
+    width: 1140px;
+    height: 1200px;
+    padding: 30px;
+    margin: 0 auto;
+    background: yellowgreen;
+}
+/*Lin于2016.4.21编辑.section-b-2及其子部分*/
+.section-b-2{
+	float: left;
+	width:849px;
+	height: 450px;
+	background: aliceblue;
+	overflow:hidden;
+}
+.section-b-2-in{
+	width:6666px;
+	transition:margin-left 0.5s;
+}
+
+.section-b-2-k{
+	float: left;
+	margin: 10px 20px 10px 0px;
+	width:263px;
+	height: 400px;
+	background: red;
+}
+.sjx-right{
+width: 0;
+height: 0;
+border-top: 10px solid transparent;
+border-left: 10px solid #ff0000;
+border-bottom: 10px solid transparent;
+background: blue;
+}
+/*编辑结束*/
+.footer {
+    width: 1140px;
+    height: 300px;
+    padding: 30px;
+    margin: 0 auto;
+    background-color: #BD06B4;
+}

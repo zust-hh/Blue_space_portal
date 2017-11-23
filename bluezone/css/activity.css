@@ -1,0 +1,238 @@
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+	background-color:rgba(255,255,255,1);
+}
+.main {
+    width: 1200px;
+    margin: 0 auto;
+	padding: 30px 0 15px 0;
+}
+
+
+.cbp_tmtimeline
+{
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+
+/* The line */
+.cbp_tmtimeline:before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 10px;
+    background: #afdcf8;
+    left: 5%;
+    margin-left: -10px;
+}
+
+.cbp_tmtimeline > li
+{
+    position: relative;
+}
+
+/* The date/time */
+.cbp_tmtimeline > li .cbp_tmtime
+{
+    display: block;
+    width: 15%;
+    padding-right: 100px;
+    position: absolute;
+}
+
+.cbp_tmtimeline > li .cbp_tmtime span
+{
+    display: block;
+    text-align: right;
+}
+
+.cbp_tmtimeline > li .cbp_tmtime span:first-child
+{
+    font-size: 0.9em;
+    color: #bdd0db;
+}
+
+.cbp_tmtimeline > li .cbp_tmtime span:last-child
+{
+    font-size: 2.9em;
+    color: #6cbfee;
+}
+
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmtime span:last-child
+{
+    color: #6cbfee;
+}
+
+/* Right content */
+.cbp_tmtimeline > li .cbp_tmlabel
+{
+    margin: 0 15px 15px 17%;
+    color: #fff;
+    padding: 2em;
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 1.4;
+    position: relative;
+    border-radius: 5px;
+}
+#before {
+background: grey;
+}
+#doing
+{
+    background: #6cbfee;
+}
+
+.cbp_tmtimeline > li .cbp_tmlabel h2
+{
+    font-size: 22px;
+    margin-top: 0;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.4);
+}
+
+/* The triangle */
+.cbp_tmtimeline > li .cbp_tmlabel:after
+{
+    right: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-width: 10px;
+    top: 10px;
+}
+#before:after {
+    border-right-color: grey;
+}
+#doing:after {
+    border-right-color: #6cbfee;
+}
+
+/* The icons */
+.cbp_tmtimeline > li .cbp_tmicon
+{
+    width: 40px;
+    height: 40px;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    font-size: 1.4em;
+    line-height: 40px;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    color: #fff;
+    background: #46a4da;
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px #afdcf8;
+    text-align: center;
+    left: 5%;
+    top: 0;
+    margin: 0 0 0 -25px;
+}
+
+.cbp_tmicon-phone:before
+{
+    content: "\e000";
+}
+
+.cbp_tmicon-screen:before
+{
+    content: "\e001";
+}
+
+.cbp_tmicon-mail:before
+{
+    content: "\e002";
+}
+
+.cbp_tmicon-earth:before
+{
+    content: "\e003";
+}
+.activity-head input {
+    margin-right: 20px;
+    margin-top: -10px;
+    width: 32px;
+    height: 32px;
+    background: url(../img/plus1.png);
+    float: right;
+    transition: all 0.5s;
+}
+.activity-head input:hover {
+    background: url(../img/plus2.png);
+}
+
+/*-----------------------------------------------------*/
+#backgroundPopup
+{
+    display: none;
+    position: fixed;
+    _position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #cccccc;
+    border: 1px solid #cecece;
+    z-index: 1;
+}
+#popupContact
+{
+    display: none;
+    position: fixed;
+    _position: absolute;
+    height: 245px;
+    width: 300px;
+    background:#223344;
+    border: 2px solid #cecece;
+    z-index: 2;
+    padding: 12px;
+    font-size: 13px;
+}
+#popupContact h1
+{
+    text-align: left;
+    color: #6FA5FD;
+    font-size: 22px;
+    font-weight: 700;
+    border-bottom: 1px dotted #D3D3D3;
+    padding-bottom: 2px;
+    margin-bottom: 20px;
+}
+#popupContactClose
+{
+    font-size: 14px;
+    line-height: 14px;
+    right: 6px;
+    top: 4px;
+    position: absolute;
+    color: #6fa5fd;
+    font-weight: 700;
+    display: block;
+}
+.activity-main {
+
+}
+.activity-word {
+    float: left;
+    width: 600px;
+    font-size: 16px;
+    line-height: 170%;
+}
+.activity-img {
+    float: left;
+    margin-top: 12px;
+    margin-left: 30px;
+    width: 150px;
+    height: 200px;
+}
